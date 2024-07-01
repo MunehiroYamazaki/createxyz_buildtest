@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import DummyNewsSection from "../components/dummy-news-section";
-import FirstViewImageDisplay from "../components/first-view-image-display";
+import DummyNewsSection from "./dummy-news-section";
+import FirstViewImageDisplay from "./first-view-image-display";
 
 function MainComponent({ firstViewImgSrc, dummyNews }) {
   return (
